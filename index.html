@@ -44,16 +44,16 @@
                 <br/><br/>
 
                 <div class="dropdown">
-                    <a class="btn btn-secondary btn-lg" href="javascript: void(0);" role="button" id="mode" data-bs-toggle="dropdown" aria-expanded="false">普通模式</a>
+                    <a class="btn btn-secondary btn-lg" href="javascript: void(0);" role="button" id="mode" data-bs-toggle="dropdown" aria-expanded="false">Normal mode(普通)</a>
                     <ul class="dropdown-menu" aria-labelledby="mode">
-                        <li><a class="dropdown-item" onclick="changeMode(MODE_NORMAL)">Normal mode</a></li>
-                        <li><a class="dropdown-item" onclick="changeMode(MODE_ENDLESS)">Endiess mode</a></li>
-                        <li><a class="dropdown-item" onclick="changeMode(MODE_PRACTICE)">P</a></li>
+                        <li><a class="dropdown-item" onclick="changeMode(MODE_NORMAL)">Normal mode(普通)</a></li>
+                        <li><a class="dropdown-item" onclick="changeMode(MODE_ENDLESS)">Endiess mode(無盡)</a></li>
+                        <li><a class="dropdown-item" onclick="changeMode(MODE_PRACTICE)">Practice mode(練習)</a></li>
                     </ul>
                 </div>
 
                 <br/>
-                <a class="btn btn-secondary btn-lg" onclick="show_setting()">游戏设置</a>
+                <a class="btn btn-secondary btn-lg" onclick="show_setting()"></a>
             </div>
             <div id="setting" style="display: none;">
                 <div class="container mb-3">
@@ -64,21 +64,21 @@
                 </div>
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
-                        <span class="input-group-text">标题</span>
+                        <span class="input-group-text">標題</span>
                     </div>
-                    <input type="text" id="title" class="form-control" placeholder="吃掉小鹿乃">
+                    <input type="text" id="title" class="form-control" placeholder="Ike eat toast">
                 </div>
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text">按键</span>
                     </div>
-                    <input type="text" id="keyboard" class="form-control" maxlength=4 placeholder="默认为DFJK">
+                    <input type="text" id="keyboard" class="form-control" maxlength=4 placeholder="默認為DFJK">
                 </div>
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
-                        <span class="input-group-text">时间</span>
+                        <span class="input-group-text">時間</span>
                     </div>
-                    <input type="text" id="gameTime" class="form-control" maxlength=4 placeholder="默认为20秒">
+                    <input type="text" id="gameTime" class="form-control" maxlength=4 placeholder="默認為20秒">
                 </div>
                 <!-- 此为无排行榜版本，隐藏了名字留言 -->
                 <div class="input-group mb-3" style="display: none;">
