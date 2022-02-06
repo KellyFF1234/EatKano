@@ -411,7 +411,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
         $('#GameScoreLayer-CPS').html('CPS&nbsp;' + cps.toFixed(2)); //获取CPS
         $('#GameScoreLayer-score').css('display', mode === MODE_ENDLESS ? 'none' : '')
             .html('Score&nbsp;' + (normalCond ? score : "<span style='color:red;'>" + score + "</span>"));
-        $('#GameScoreLayer-bast').html('The Bast&nbsp;' + scoreToString(best));
+        $('#GameScoreLayer-bast').html('The Best&nbsp;' + scoreToString(best));
 
         l.css('display', 'block');
     }
