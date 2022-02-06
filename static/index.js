@@ -55,7 +55,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     }
 
     function modeToString(m) {
-        return m === MODE_NORMAL ? "普通模式" : (m === MODE_ENDLESS ? "无尽模式" : "练习模式");
+        return m === MODE_NORMAL ? "Normal mode" : (m === MODE_ENDLESS ? "Endless mode" : "Practice mode");
     }
 
     w.changeMode = function(m) {
